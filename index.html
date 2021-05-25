@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> <!-- link a google font -->
+    <title>Lim | Boolean</title>
+</head>
+<body>
+    <!-- Creo un div che diverrà il box nero e farà da contenitore per tutti i testi e pulsanti -->
+    <div id="black-box">
+        <header>
+            <img src="img/logo.png">
+            <h1>Taking Booleaners from A to B</h1>
+        </header>
+
+        <!-- I pulsanti li inserisco in un tag nav per chiarezza (avrei anche potuto inserirli nell'header ma ho preferito diversificare) -->
+        <nav>
+            <div>
+                <button type="button">Prenota</button>
+                <button type="button">Termina Prenotazione</button>
+                <button type="button">Accendi Luci</button>
+            </div>
+        </nav>
+
+        <!-- Sezione principale del sito -->
+        <main>
+            <!-- Ogni sezione è racchiusa in un tag section per maggiore chiarezza -->
+            <section>
+                <input type="checkbox" name="selectMonopattino">
+                <h1>Monopattino Gino22</h1>
+                <p class="location"> Via Guadalametri - a 220 metri da te</p>
+                <p>Stato carica:</p>
+                <div id="orange-bar"></div>
+            </section>
+
+            <section>
+                <input type="checkbox" name="selectMonopattino">
+                <h1>Monopattino Mike24</h1>
+                <p class="location"> Via Ricciardoni - a 420 metri da te</p>
+                <p>Stato carica:</p>
+                <div id="green-bar"></div>
+            </section>
+
+            <section>
+                <input type="checkbox" name="selectMonopattino">
+                <h1>Monopattino Fede154</h1>
+                <p class="location"> Via Mentarini - a 490 metri da te</p>
+                <p>Stato carica:</p>
+                <div id="red-bar"></div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

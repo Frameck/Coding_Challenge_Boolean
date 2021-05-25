@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#black-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 65%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 70px;
+    padding: 85px;
+}
+
+/* ho centrato gli elementi utilizzando flex perché ho ritenuto fosse la soluzione migliore e più versatile (si adatta alle dimensioni del contenitore) */
+header img {
+    width: 25%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: rgb(0, 232, 0);
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -0.7px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+nav > div {
+    background-color: rgb(0, 232, 0);
+    height: 45px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav button {
+    margin: 3px;
+}
+
+main section {
+    color: white;
+}
+
+section h1 {
+    display: inline-block;
+    margin: 10px 0 5px 0;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+
+section p {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.location::before {
+    content: "\21A6";
+}
+
+section div:last-child {
+    height: 30px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+#orange-bar {
+    width: 330px;
+    background-color: rgb(245, 180, 83);
+}
+
+#green-bar {
+    width: 500px;
+    background-color: rgb(31, 194, 30);
+}
+
+#red-bar {
+    width: 150px;
+    background-color: rgb(190, 65, 65);
+    margin-bottom: 35px;
+}
